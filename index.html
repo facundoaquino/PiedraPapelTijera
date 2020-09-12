@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>PPT</title>
+  </head>
+  <body>
+    <header class="header text-center mt-5">
+      <h1>Piedra papel o tijera</h1>
+      <button id="go" class="p-2 mt-5 btn btn-primary">Empezar a jugar</button>
+    </header>
+    <main class="main">
+      <section class="player">
+        <img src="assets/images/stone.png " alt=" " class="player__img op0" />
+        <img src="assets/images/papper.png " alt="" class="player__img op1" />
+        <img src="assets/images/scissor.png " alt="" class="player__img op2" />
+        <div class="player__points">0</div>
+      </section>
+      <h2 class="vs">Vs</h2>
+      <section class="computer">
+        <div class="computer__points">0</div>
+
+        <img src="assets/images/stone.png " alt=" " class="computer__img oc0" />
+        <img src="assets/images/papper.png " alt="" class="computer__img oc1" />
+        <img
+          src="assets/images/scissor.png "
+          alt=""
+          class="computer__img oc2"
+        />
+      </section>
+    </main>
+    <img src="assets/images/winer.gif" alt="" class="winer" />
+    <img src="assets/images/losser.gif" alt="" class="loser" />
+    <script src="assets/app.js"></script>
+  </body>
+</html>

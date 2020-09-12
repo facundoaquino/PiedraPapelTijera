@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  margin-top: 10rem;
+  display: none;
+  justify-content: space-around;
+}
+.player img,
+.computer img {
+  width: 5rem;
+  margin: 2rem;
+  cursor: pointer;
+  transition: transform 1s, width 1s;
+}
+
+.player__img:hover {
+  transform: scale(1.1);
+}
+
+.computer__img {
+  filter: opacity(0.2);
+}
+
+.player__points,
+.computer__points {
+  display: inline-block;
+  font-size: 5rem;
+  vertical-align: middle;
+  color: tomato;
+}
+
+.vs {
+  align-self: center;
+}
+
+.winer,
+.loser {
+  margin: 10rem auto;
+  display: none;
+  position: relative;
+  bottom: 10rem;
+}
